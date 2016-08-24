@@ -77,12 +77,12 @@ def encrypt():
 		convertToDigit(userPasswordOriginal)
 		shuffleDefault(int(userPasswordConverted) % 92)
 		convertData()
-		print "Encrypted data: (" + str(userDataConverted) +")"
+		print "Encrypted data: " + str(userDataConverted)
 
 	else:
-		changedWolfEncryption = defaultWolfEncryption
+		shuffleDefault(37)
 		convertData()
-		print "Encrypted data: (" + str(userDataConverted) + ")"
+		print "Encrypted data: " + str(userDataConverted)
 
 def decrypt():
 	if passMode == True:
@@ -91,11 +91,11 @@ def decrypt():
 		convertToDigit(userPasswordOriginal)
 		shuffleDefault(int(userPasswordConverted) % 92)
 		convertData()
-		print "Decrypted data: (" + str(userDataConverted) + ")"
+		print "Decrypted data: " + str(userDataConverted)
 	else:
-		changedWolfEncryption = defaultWolfEncryption
+		shuffleDefault(37)
 		convertData()
-		print "Decrypted data: (" + str(userDataConverted) + ")"
+		print "Decrypted data: " + str(userDataConverted)
 
 def convertToDigit(inputToConvert):
 	global stringLen
