@@ -1,7 +1,4 @@
-#Wolf Encryption Method - Encrypt anything using a password
 #Program written by Zach Hofmeister
-#READ THE README BEFORE USING ANY OF MY CODE!!!
-
 
 #TO DO: encrypt user original password as well and add it to the end of the encrypted data, then when decrypting remove it, decrypt the password, and make sure that the password used to decrypt matches. Otherwise, cancel decryption.
 
